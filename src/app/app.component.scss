@@ -1,0 +1,35 @@
+@import '~src/variables.scss';
+
+.header {
+  background-color: $bgDarkGray;
+  padding: 30px;
+
+  .name {
+    color: $textPrimary;
+    font-family: $poppins;
+    font-size: 35px;
+    border-radius: 30px;
+    padding: 5px 20px;
+    background-color: $primary;
+    text-align: center;
+    font-weight: 800;
+  }
+
+  .navigation {
+    list-style: none;
+
+    a {
+      text-decoration: none;
+      font-size: 25px;
+      font-family: $openSans;
+      color: $textGray;
+      transition: all 0.2s ease-in-out;
+      margin: 0 30px;
+
+      &:hover,
+      &.active {
+        color: $textPrimary;
+      }
+    }
+  }
+}

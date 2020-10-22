@@ -1,0 +1,16 @@
+@import '~node_modules/bootstrap/scss/functions';
+@import '~node_modules/bootstrap/scss/variables';
+@import '~node_modules/bootstrap/scss/mixins';
+
+// colors
+$bgDarkGray: #222222;
+$bgLightGray: #444444;
+$textPrimary: #f5f5f5;
+$textGray: #969696;
+
+$primary: $primary;
+
+// fonts
+$oswald: 'Oswald', sans-serif;
+$openSans: 'Open Sans', sans-serif;
+$poppins: 'Poppins', sans-serif;
